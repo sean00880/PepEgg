@@ -336,7 +336,7 @@ const HomePage: React.FC = () => {
         },
         {
           phase: "Phase 2: Listings",
-          details: "Get listed on Solscan, drive awareness on CoinGecko, and attract early adopters.",
+          details: "Get listed on Solscan, drive awareness on CoinGecko and CMC, and attract early adopters.",
           icon: "/images/pegg1.png"
         },
         {
