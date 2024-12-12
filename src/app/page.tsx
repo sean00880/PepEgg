@@ -66,7 +66,7 @@ const HomePage: React.FC = () => {
         }}
       >
        {/* Solana Gradient Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-br from-[#9945FF] via-[#14F195] to-[#9945FF] opacity-80 z-0"></div>
+  <div className="absolute inset-0 bg-gradient-to-br from-[green] via-[white] to-[red] opacity-80 z-0"></div>
 
         {/* Content Box */}
         <div className="relative z-10 bg-white/80 backdrop-blur-md p-8 md:p-12 rounded-xl shadow-xl flex flex-col items-center text-center space-y-6">
@@ -87,12 +87,12 @@ const HomePage: React.FC = () => {
 
           {/* Title */}
           <motion.h1
-            className="text-5xl md:text-6xl font-extrabold text-purple-700"
+            className="text-5xl md:text-6xl font-extrabold text-black flex flex-row items-center justify-center"
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            $<span className="text-green-800 italic">PepEgg</span>
+            $<span className="text-green-800 italic text-6xl">PEGG</span> : <span className="text-6xl text-[red]">PepEgg</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -186,11 +186,11 @@ const HomePage: React.FC = () => {
   id="about"
   className="py-6 relative flex items-center justify-center min-h-screen text-white bg-fixed bg-cover bg-center"
   style={{
-    backgroundImage: "url('/images/peggbg.png')",
+    backgroundImage: "url('/images/pegg2.webp')",
   }}
 >
   <div
-    className="absolute inset-0 bg-gradient-to-r from-black via-[#9945FF]/50 to-transparent z-0"
+    className="absolute inset-0 bg-gradient-to-r from-black via-[green]/50 to-transparent z-0"
   ></div>
 
   {/* Content */}
@@ -310,7 +310,7 @@ const HomePage: React.FC = () => {
       {/* Roadmap Section */}
       <section
   id="roadmap"
-  className="relative py-20 bg-fixed bg-gradient-to-b from-[#252525] via-[#0a0a0a] to-[#000000] text-white"
+  className="relative py-20 bg-fixed bg-gradient-to-b from-[#252525] via-[purple] to-[purple] text-white"
   style={{
     backgroundImage: "url('/images/pegg3.jpg')",
     backgroundSize: "cover",
@@ -319,8 +319,8 @@ const HomePage: React.FC = () => {
   }}
 >
   {/* Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-purple-900/20 to-green-900/20"></div>
 
+  <div className="absolute inset-0 bg-gradient-to-b from-[green]/70 via-black/50 to-[purple]/70"></div>
   {/* Content */}
   <div className="relative z-10 max-w-7xl mx-auto px-6">
     <h2 data-text="$PEGG Roadmap" className="anim text-4xl md:text-5xl font-bold text-center text-black mb-16">
