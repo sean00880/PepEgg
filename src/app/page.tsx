@@ -95,6 +95,16 @@ const HomePage: React.FC = () => {
             $<span className="text-green-800 italic text-6xl">PEGG</span> : <span className="text-6xl text-[red]">PepEgg</span>
           </motion.h1>
 
+          <motion.h3
+            className="text-5xl md:text-6xl font-extrabold text-black flex flex-row items-center justify-center"
+            initial={{ y: -50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
+            <em>The First OG Pegg</em>
+          </motion.h3>
+
+
           {/* Subtitle */}
           <motion.p
             className="text-lg md:text-xl text-gray-700 italic"
