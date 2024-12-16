@@ -134,7 +134,7 @@ const HomePage: React.FC = () => {
             transition={{ delay: 1 }}
           >
             <Link
-              href="https://x.com/pep_eggsol"
+              href="https://t.me/PepEggCommunity"
               className="hover:scale-110 transition-transform"
             >
               <Image
@@ -146,7 +146,7 @@ const HomePage: React.FC = () => {
               />
             </Link>
             <Link
-              href="https://x.com/PEGGOfficial"
+              href="https://x.com/PepEggCTO"
               className="hover:scale-110 transition-transform"
             >
               <Image
@@ -163,6 +163,18 @@ const HomePage: React.FC = () => {
             >
               <Image
                 src="/icons/dextools.png"
+                width={40}
+                height={40}
+                alt="Dextools"
+                className="rounded-full shadow-md"
+              />
+            </Link>
+            <Link
+              href="https://dexscreener.com/solana/B4vCYnnSXkzjPGTXtStaC7ScDpKfvgPeTMmdRyLQ1VMv"
+              className="hover:scale-110 transition-transform"
+            >
+              <Image
+                src="/icons/dexscreener.png"
                 width={40}
                 height={40}
                 alt="Dextools"
